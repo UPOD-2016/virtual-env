@@ -21,12 +21,16 @@ This repo contains a virtual box that you can download, and start from the comma
         vagrant box add upod package.box
     
         vagrant init upod
-    
+ 
+4. Replace the `Vagrantfile` generated with the `Vagrantfile` in the repo.
+
+5. Run the following commands to start the machine.
+
         vagrant up
         
         vagrant ssh
 
-4. Configure Github to work with your account.
+6. Configure Github to work with your account.
     
         git config --global user.name "YOUR NAME"
     
@@ -46,4 +50,7 @@ This repo contains a virtual box that you can download, and start from the comma
   
       Hi mikeroher! You've successfully authenticated, but GitHub does not provide shell access.
     
-5. Change your directory (with the `cd` command) to /vagrant/UPOD/upod
+7. Change your directory (with the `cd` command) to /vagrant/UPOD/upod
+8. You can kill the Vagrant machine by pressing `CTRL-D` until you see your local prompt. Then:
+
+        vagrant halt
