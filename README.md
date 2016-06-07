@@ -12,8 +12,12 @@ This repo contains a virtual box that you can download, and start from the comma
 
 1. Download [Vagrant](https://www.vagrantup.com/downloads.html) to install everything required to get the virtual machine up and running.
 2. Download the `package.box` from [here](https://mega.nz/#!KsM2AD6a!Lud-Smyh4SQXwqySKAC29WWuct6uVODBhAeeuG4ZXbM). This was originally on Github but we exceeded the data cap in the first hour of `package.box` being hosted here.
-3. Start the vagrant box
-    
+3. Start the vagrant box - on Windows, you'll need to go to the command prompt and then run the following commands. Linux and Mac users will need to Terminal.
+        
+        # `YOUR_PROJECT_DIRECTORY` must have the `package.box` in it.
+
+        cd `YOUR_PROJECT_DIRECTORY`
+            
         vagrant box add upod package.box
     
         vagrant init upod
