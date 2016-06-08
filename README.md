@@ -7,6 +7,7 @@ This repo contains a virtual box that you can download, and start from the comma
 * Everything is self-contained within virtual machine - no need to downlod anything else
 * Set-up is done for you - no need to install Ruby, Rails, MySQL
 * Everyone who uses this environment will be working with the exact same versioning
+* Syncs back to your local machine - the `/vagrant` directory is a clone of your local project folder so you can make changes from your local computer and they'll be cloned to the virtual machine.
 
 ## How it works?
 
@@ -52,7 +53,7 @@ This repo contains a virtual box that you can download, and start from the comma
   
       Hi mikeroher! You've successfully authenticated, but GitHub does not provide shell access.
     
-7. Change your directory (with the `cd` command) to /vagrant/UPOD/upod
+7. Change your directory (with the `cd` command) to /vagrant/UPOD/upod (note: this will change depending on your local filesystem).
 8. You can kill the Vagrant machine by pressing `CTRL-D` until you see your local prompt. Then:
 
         vagrant halt
