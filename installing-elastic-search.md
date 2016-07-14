@@ -45,11 +45,15 @@ To make sure Elasticsearch starts and stops automatically with the Droplet, add 
 	sudo update-rc.d elasticsearch defaults
 
 Add the following line to your `Vagrantfile`
-	config.vm.provider "virtualbox" do |v|
-	    v.memory = 1024
-	end
+
+```
+config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+end
+```
 
 Restart your Vagrant machine
+
 ```
 logout
 vagrant halt
