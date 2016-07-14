@@ -34,7 +34,6 @@ Step 2 — Downloading and Installing Elasticsearch
 ```
 cd ~/
 wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.deb
-cd /vagrant
 ```
 Then install it in the usual Ubuntu way with the dpkg command like this:
 
