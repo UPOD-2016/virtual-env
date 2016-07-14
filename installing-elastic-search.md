@@ -50,7 +50,9 @@ Add the following line to your `Vagrantfile`
 	end
 
 Restart your Vagrant machine
-	logout
-	vagrant halt
-	vagrant up
-	vagrant ssh
+```
+logout
+vagrant halt
+vagrant up
+vagrant ssh
+```
