@@ -63,6 +63,7 @@ vagrant ssh
 Reindex Article table
 
 ```
+cd /vagrant/UPOD/upod/
 rails console
 Article.reindex
 ```
