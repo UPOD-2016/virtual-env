@@ -59,3 +59,10 @@ vagrant halt
 vagrant up
 vagrant ssh
 ```
+
+Reindex Article table
+
+```
+rails console
+Article.reindex
+```
