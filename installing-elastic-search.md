@@ -39,7 +39,7 @@ Then install it in the usual Ubuntu way with the dpkg command like this:
 
 	sudo dpkg -i elasticsearch-1.7.2.deb
 
-To make sure Elasticsearch starts and stops automatically with the Droplet, add its init script to the default runlevels with the command:
+To make sure Elasticsearch starts and stops automatically:
 
 	sudo update-rc.d elasticsearch defaults
 
